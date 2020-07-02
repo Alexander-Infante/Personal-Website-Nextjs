@@ -34,7 +34,8 @@ export default function Layout({ children, home }) {
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
           </>
-        ) : (
+        ) : 
+        (
           <>
             <Link href="/">
               <a>
