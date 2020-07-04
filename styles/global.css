@@ -6,12 +6,13 @@ body {
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   line-height: 1.6;
   font-size: 18px;
-  background-color: rgba(255, 255, 255, 0.349);
-  color: rgba(0, 0, 0, 0.753);
+  background-color: #f9f7f7;
+  color: #3f72af;
 }
 
 * {
   box-sizing: border-box;
+  color: #3f72af;
 }
 
 a {
@@ -30,7 +31,7 @@ img {
   width: auto;
   height: auto;
   object-fit: cover;
-  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.116);
+  box-shadow: 10px 10px 5px #dbe2ef;
 }
 
 /* img {
