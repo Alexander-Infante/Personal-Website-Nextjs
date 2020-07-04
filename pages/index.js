@@ -30,8 +30,12 @@ export default function Home({ allPostsData }) {
           ), and AWS ({''}
           <a href="https://docs.aws.amazon.com/lambda/latest/dg/welcome.html">Lambda functions</a> are super interesting).
         </p>
-        <p className={utilStyles.headingMd}>
-          Books I'm currently reading: 
+        <p>
+          Feel free to check out {' '}
+          <a href="https://drive.google.com/file/d/1dfAONxi0ZI09wXSSSPEf37oPIUSCAdwU/view?usp=sharing">my resume.</a>
+        </p>
+        <p className={utilStyles.headingLg}>
+          I'm Currently Reading: 
         </p>
         <p>
           {''} 
@@ -44,23 +48,26 @@ export default function Home({ allPostsData }) {
           <a href="https://www.amazon.com/Mans-Search-Meaning-Viktor-Frankl/dp/0807014273/ref=sr_1_1?crid=23ETVMWUY6819&dchild=1&keywords=man%27s+search+for+meaning+by+viktor+frankl&qid=1593888552&s=books&sprefix=man%27s+se%2Cstripbooks%2C201&sr=1-1">Man's Search for Meaning </a>
           by Viktor E. Frankl
         </p>
-        <p className={utilStyles.headingMd}>
-          Open Source: 
+        <p className={utilStyles.headingLg}>
+          Open Source Contributions: 
         </p>
         <p>
           Check out {' '} <a href="https://github.com/Alexander-Infante"> my GitHub!</a>
         </p>
-        <p className={utilStyles.headingMd}>
-          Most recent hike: 
+        <p className={utilStyles.headingLg}>
+          Most Recent Hike: 
         </p>
         <p>
-          Somewhere in the Palisades, I just happened to find some interesting trail and went with it.
+          Somewhere in the Palisades, I just happened to find some interesting trail and went with it. {' '}
+          <a href="https://drive.google.com/drive/folders/1-2xxRSm4q5nQoO35EEsixm4pokL2TMJs?usp=sharing">Photos here</a>
         </p>
           
       </section>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
+        <h2 className={utilStyles.headingLg}>
+          Assortment of Thoughts and Experiences
+        </h2>
         <ul className={utilStyles.list}></ul>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
