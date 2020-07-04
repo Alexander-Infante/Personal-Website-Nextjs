@@ -21,11 +21,42 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Just testing some Next.js</p>
         <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+        Welcome to my humble abode on the internet. I'm a software engineer, avid reader, open source contributer, and hiking enthusiast. 
         </p>
+        <p>
+          As a software engineer I specialize in full stack web development, with a keen interest in TypeScript, GraphQL (especially with {' '} 
+          <a href="https://www.apollographql.com/">Apollo</a>
+          ), and AWS ({''}
+          <a href="https://docs.aws.amazon.com/lambda/latest/dg/welcome.html">Lambda functions</a> are super interesting).
+        </p>
+        <p className={utilStyles.headingMd}>
+          Books I'm currently reading: 
+        </p>
+        <p>
+          {''} 
+          <a href="https://www.amazon.com/Start-up-Nation-Israels-Economic-Miracle/dp/0446541478">
+            Start-Up Nation: The Story of Israel's Economic Miracle
+          </a> by Dan Senor & Saul Singer
+         </p>
+         <p>
+         {''}
+          <a href="https://www.amazon.com/Mans-Search-Meaning-Viktor-Frankl/dp/0807014273/ref=sr_1_1?crid=23ETVMWUY6819&dchild=1&keywords=man%27s+search+for+meaning+by+viktor+frankl&qid=1593888552&s=books&sprefix=man%27s+se%2Cstripbooks%2C201&sr=1-1">Man's Search for Meaning </a>
+          by Viktor E. Frankl
+        </p>
+        <p className={utilStyles.headingMd}>
+          Open Source: 
+        </p>
+        <p>
+          Check out {' '} <a href="https://github.com/Alexander-Infante"> my GitHub!</a>
+        </p>
+        <p className={utilStyles.headingMd}>
+          Most recent hike: 
+        </p>
+        <p>
+          Somewhere in the Palisades, I just happened to find some interesting trail and went with it.
+        </p>
+          
       </section>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
