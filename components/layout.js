@@ -28,18 +28,19 @@ export default function Layout({ children, home }) {
         {home ? (
           <>
             <img
-              src="/images/profile_Alex.jpg"
+              src="/images/profile_Alex.png"
               className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
               alt={name}
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
           </>
-        ) : (
+        ) : 
+        (
           <>
             <Link href="/">
               <a>
                 <img
-                  src={require('../public/images/profile_Alex.jpg')}
+                  src={require('../public/images/profile_Alex.png')}
                   className={`${styles.headerImage} ${utilStyles.borderCircle}`}
                   alt={name}
                 />
