@@ -33,7 +33,7 @@ export default function Home({ allPostsData }) {
           >
           Apollo
           </a>
-          ), and AWS ({''}
+          ), and AWS ({' '}
           <a 
           target="_blank"
           rel="noopener noreferrer"
