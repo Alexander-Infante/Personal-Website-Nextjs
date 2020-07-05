@@ -33,15 +33,15 @@ export default function Home({ allPostsData }) {
           >
           Apollo
           </a>
-          ), and AWS ({' '}
+          ), and AWS ({''}
           <a 
           target="_blank"
           rel="noopener noreferrer"
           href="https://docs.aws.amazon.com/lambda/latest/dg/welcome.html"
           >
-           Lambda functions
+          Lambda functions
           </a> 
-          are super interesting).
+           are super interesting).
         </p>
         <p>
           Feel free to check out {' '}
