@@ -50,7 +50,17 @@ export default function Home({ allPostsData }) {
           href="https://drive.google.com/file/d/1bX3rUIAH3pkyviJnqP1vuQ800eLdYp2w/view?usp=sharing"
           >
           my resume.
+          </a> {' '}
+          My most recent experience is building a rate limiter and throttling controller at 
+          {' '}
+          <a 
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.portara.io/"
+          >
+          Portara
           </a>
+          , which I write about below. Some notable contributions I made were implementing Redis to maintain stateless servers and handling user authentication. 
         </p>
         <p className={utilStyles.headingLg}>
           I'm Currently Reading: 
