@@ -32,7 +32,9 @@ const GET_PROFILE_PIC = gql`
 2. In the function but above the return statement, utilize the **useQuery** hook and pass in the GraphQL query and the variables being passed in
 
 ```
-const { loading, error, data } = useQuery(GET_PROFILE_PIC, {
+const { loading, error, data } = useQuery(
+  GET_PROFILE_PIC, 
+  {
     variables: { username: 'Alex-Infante' },
   });
 ```
