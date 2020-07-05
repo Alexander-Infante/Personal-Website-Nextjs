@@ -25,7 +25,7 @@ export default function Home({ allPostsData }) {
         Welcome to my humble abode on the internet. I'm a software engineer, avid reader, open source contributer, and hiking enthusiast. 
         </p>
         <p>
-          As a software engineer I specialize in full stack web development, with a keen interest in TypeScript, GraphQL (especially with {' '} 
+          As a software engineer I specialize in full stack web development, with a keen interest in TypeScript, GraphQL (especially with {''} 
           <a
           target="_blank"
           rel="noopener noreferrer" 
@@ -39,7 +39,7 @@ export default function Home({ allPostsData }) {
           rel="noopener noreferrer"
           href="https://docs.aws.amazon.com/lambda/latest/dg/welcome.html"
           >
-          Lambda functions
+           Lambda functions
           </a> 
           are super interesting).
         </p>
