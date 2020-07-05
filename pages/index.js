@@ -32,7 +32,9 @@ export default function Home({ allPostsData }) {
         </p>
         <p>
           Feel free to check out {' '}
-          <a href="https://drive.google.com/file/d/1dfAONxi0ZI09wXSSSPEf37oPIUSCAdwU/view?usp=sharing">my resume.</a>
+          <a href="https://drive.google.com/file/d/1bX3rUIAH3pkyviJnqP1vuQ800eLdYp2w/view?usp=sharing">
+          my resume.
+          </a>
         </p>
         <p className={utilStyles.headingLg}>
           I'm Currently Reading: 
