@@ -18,10 +18,10 @@ At Portara, we incorporated Redis to store user IP addresses (passed through the
 6. If the number of requests exceeds the designated limit, an error will be sent to the presentation tier
 
 
-One technical challenge of using Redis in this fashion that I had to overcome at Portara was dealing with Redis asynchronously. As a typical indicator of troubles with asynchoronous functionality, the performance was unreliable and sparadic for the rate limiting. After expanding upon the testing suite, I realized the trouble was certain functions running before items are set in Redis, thus leading to the functionality working at some tests but failing at other times.
+One technical challenge of using Redis in this fashion that I had to overcome at Portara was dealing with Redis asynchronously. As a typical indicator of troubles with asynchoronous functionality, the performance was unreliable and sporadic for the rate limiting. After expanding upon the testing suite, I realized the trouble was certain functions running before items are set in Redis, thus leading to the functionality working at some tests but failing at other times.
 
 Thankfully, Node.js only has one thread of execution (technically) and the event loop, which I will elaborate on in another post. By understanding how this works under the hood, I attempted to wrap the entire function in Redis in a higher order async function and manage the returning of promises. This did not yield the results I wanted.
 
 Step in **async-redis**, a great npm package that is open sourced and works wonderfully. By using this package as a dependency, I was able to ensure that all of the functions ran and awaited previous functionality, thus ensuring reliable performance and consistently get those green checkmarks for the tests.
 
-Async-Redis is very simple to use, especially for those familiar with Redis with Node.js. By setting your client to the function invokation of asyncRedis.createClient() after requiring in the package, you can write your Redis functions just as you normally would, but now with "await" before them. 
+Async-Redis is very simple to use, especially for those familiar with Redis with Node.js. By setting your client to the function invocation of asyncRedis.createClient() after requiring in the package, you can write your Redis functions just as you normally would, but now with "await" before them. 
