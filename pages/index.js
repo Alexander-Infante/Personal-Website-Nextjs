@@ -40,8 +40,7 @@ export default function Home({ allPostsData }) {
           href="https://docs.aws.amazon.com/lambda/latest/dg/welcome.html"
           >
           Lambda functions
-          </a> 
-           are super interesting).
+          </a> are super interesting).
         </p>
         <p>
           Feel free to check out {' '}
