@@ -70,6 +70,16 @@ export default function Home({ allPostsData }) {
           <a 
           target="_blank"
           rel="noopener noreferrer"
+          href="https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321"
+          >
+            Designing Data-Intensive Applications
+          </a> by Martin Kleppmann
+         </p>
+        <p>
+          {''} 
+          <a 
+          target="_blank"
+          rel="noopener noreferrer"
           href="https://www.amazon.com/Start-up-Nation-Israels-Economic-Miracle/dp/0446541478"
           >
             Start-Up Nation: The Story of Israel's Economic Miracle
