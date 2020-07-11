@@ -2,6 +2,11 @@
 title: 'Express.js with GraphQL: Apollo-Server-Express'
 date: '2020-07-10'
 ---
+<style>
+pre {
+  font-size: 14px;
+}
+</style>
 
 Node.js is a useful, versatile, and performant backend language that is great at managing server side logic. Express helps keep Node.js code less verbose, allows for customized middleware for various solutions, and easily connects to SQL and NoSQL databases. 
 
@@ -11,14 +16,16 @@ While handling the user authentication for Portara's integrated developer dashbo
 
 Incorporating both technologies is surprisngly easy with Apollo-Server-Express:
 
-1. Install `apollo-server-express` to your product, which should update your `package.json`.
+1. Install apollo-server-express to your product, which should update your package.json.
 
-2. Require in `apollo-server-express` to your server logic file
+2. Require in apollo-server-express to your server logic file
+
 ```
 const { ApolloServer, gql } = require('apollo-server-express')
 ```
 
 3. Invoke the built in 'applyMiddleware' function and pass in the app.
+
 ```
 server.applyMiddleware({ app })
 ```

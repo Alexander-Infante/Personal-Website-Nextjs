@@ -2,6 +2,11 @@
 title: 'GraphQL with React Hooks (with Apollo Client)'
 date: '2020-06-13'
 ---
+<style>
+pre {
+  font-size: 14px;
+}
+</style>
 
 React Hooks are very useful for developers using functional components, I'll later do a write up specifically about functional versus class components in React (though the Docs are very useful for this explanation as well). When using Apollo Client, it's very nice that the Apollo team actually created some specific hooks that can be used when implementing GraphQL. 
 
@@ -19,6 +24,7 @@ The typical syntax for a query is as follows:
 
 1. Above the function definition, create a variable with the name of your action and assign it the value of the "gql" query, mutation, or subscription
 
+
 ```
 const GET_PROFILE_PIC = gql`
   query getProfilePic($username: String!) {
@@ -28,6 +34,7 @@ const GET_PROFILE_PIC = gql`
   }
 `;
 ```
+
 
 2. In the function but above the return statement, utilize the **useQuery** hook and pass in the GraphQL query and the variables being passed in
 
