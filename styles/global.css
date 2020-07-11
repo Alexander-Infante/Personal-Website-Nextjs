@@ -39,3 +39,17 @@ img {
   max-width: 100%;
   display: block;
 } */
+
+.GitHub {
+  box-shadow: none;
+  height: 30px;
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.LinkedIn {
+  box-shadow: none;
+  height: 30px;
+  display: inline-block;
+  padding-left: 20px;
+}

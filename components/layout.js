@@ -33,6 +33,28 @@ export default function Layout({ children, home }) {
               alt={name}
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <div>
+              <a 
+              href="https://github.com/Alexander-Infante"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                <img 
+                src={require("../public/images/GitHub.png")} 
+                className='GitHub'
+                />
+               </a>
+               <a 
+              href="https://www.linkedin.com/in/alexander-infante/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                <img 
+                src={require("../public/images/LinkedIn.png")} 
+                className='LinkedIn'
+                />
+               </a>                  
+            </div>
           </>
         ) : 
         (
