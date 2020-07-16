@@ -47,7 +47,7 @@ export default function Home({ allPostsData }) {
           <a 
           target="_blank"
           rel="noopener noreferrer"
-          href="https://drive.google.com/file/d/1bX3rUIAH3pkyviJnqP1vuQ800eLdYp2w/view?usp=sharing"
+          href="https://drive.google.com/file/d/1XSfOWSRwLB6sRDcnY3lRappCjk2mxBMT/view?usp=sharing"
           >
           my resume.
           </a> {' '}
