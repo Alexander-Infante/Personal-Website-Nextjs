@@ -111,7 +111,7 @@ export default function Home({ allPostsData }) {
           Most Recent Hike: 
         </p>
         <p>
-          Somewhere in the Palisades, I just happened to find some interesting trail and went with it. {' '}
+          I've been using different trails to reach the summit for Mt. Baldy, varying in length and difficulty. My personal favorite is to reach the summit via Register Ridge starting at Manker Flat. {' '}
           <a 
           target="_blank"
           rel="noopener noreferrer"
