@@ -22,45 +22,16 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-        Welcome to my humble abode on the internet. I'm a software engineer, avid reader, open source contributer, and hiking enthusiast. 
+        Welcome to my personal wesbite! I'm currently a Senior Software Development Engineer in Test at PennyMac Loan Services, LLC. I normally get two questions: What is an SDET and how is it different from an SDE? What does PennyMac do?
         </p>
         <p>
-          As a software engineer I specialize in full stack web development, with a keen interest in TypeScript, GraphQL (especially with {''} 
-          <a
-          target="_blank"
-          rel="noopener noreferrer" 
-          href="https://www.apollographql.com/"
-          >
-          Apollo
-          </a>
-          ), and AWS ({''}
-          <a 
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://docs.aws.amazon.com/lambda/latest/dg/welcome.html"
-          >
-          Lambda functions
-          </a> are super interesting).
+        An SDET, or Software Development Engineer in Test, is a unique position that allows for a lot of growth, different perspectives on engineering, and hones in my communication skills. While I technically am part of the QA organization, I'm attached to a development team and follow with the development sprint cycle. My focus is on building out testing frameworks as the developers build out features (this practice is known as "in sprint automation" and is part of the "shift left" mentality). I also help review unit tests, make sure we have appropriate test coverage, and help fix things that are broken. Additionally, I work closely with DevOps to set up CICD integration with our frameworks and work towards testing our AWS Infrastructure. I'm learning more about Security and Chaos Engineering.
         </p>
         <p>
-          Feel free to check out {' '}
-          <a 
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://drive.google.com/file/d/1XSfOWSRwLB6sRDcnY3lRappCjk2mxBMT/view?usp=sharing"
-          >
-          my resume.
-          </a> {' '}
-          My most recent experience is building a rate limiter and throttling controller at 
-          {' '}
-          <a 
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://www.portara.io/"
-          >
-          Portara
-          </a>
-          , which I write about below. Some notable contributions I made were implementing Redis to maintain stateless servers and handling user authentication. 
+        PennyMac Loan Services, LLC is a finance firm, with the office I work out of located in Agora Hills, CA (just North of the Westside of Los Angeles). We've got many offices and around 9,000 employees (plus additional contractors). As the name implies, the firm operates within the mortgage industry. We service, price, and buy mortgages for consumers. I'm actually a bit of a nerd when it comes to real estate finance, I've earned a Certificate in Real Estate Development from UCLA Extension and have half a bookshelf develoted to real estate, finance, and structured debt.
+        </p>
+        <p>
+        When I'm not working, studying for various certificates (right now the CompTIA Security+ and AWS Security Specialty are my priorites)- I'm typically reading, hiking, building some side projects, and/ or spending time with my wife (who is also an Engineer!). 
         </p>
         <p className={utilStyles.headingLg}>
           I'm Currently Reading: 
@@ -111,7 +82,7 @@ export default function Home({ allPostsData }) {
           Most Recent Hike: 
         </p>
         <p>
-          I've been using different trails to reach the summit for Mt. Baldy, varying in length and difficulty. My personal favorite is to reach the summit via Register Ridge starting at Manker Flat. {' '}
+          I've been using different trails to reach the summit for Mt. Baldy, varying in length and difficulty. My personal favorite is to reach the summit via Register Ridge starting at Manker Flat. The peak of Mt. Baldy is just over 10,000ft in elevation, it's quite the view. {' '}
           <a 
           target="_blank"
           rel="noopener noreferrer"
