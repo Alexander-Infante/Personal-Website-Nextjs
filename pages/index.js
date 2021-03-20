@@ -24,15 +24,28 @@ export default function Home({ allPostsData }) {
         <p>
         Welcome to my personal wesbite! I'm currently a Senior Software Development Engineer in Test at PennyMac Loan Services, LLC. I normally get two questions: What is an SDET and how is it different from an SDE? What does PennyMac do?
         </p>
+        <hr></hr>
+        <p className={utilStyles.headingMd}>
+        Basic Role of an SDET
+        </p>
         <p>
         An SDET, or Software Development Engineer in Test, is a unique position that allows for a lot of growth, different perspectives on engineering, and hones in my communication skills. While I technically am part of the QA organization, I'm attached to a development team and follow with the development sprint cycle. My focus is on building out testing frameworks as the developers build out features (this practice is known as "in sprint automation" and is part of the "shift left" mentality). I also help review unit tests, make sure we have appropriate test coverage, and help fix things that are broken. Additionally, I work closely with DevOps to set up CICD integration with our frameworks and work towards testing our AWS Infrastructure. I'm learning more about Security and Chaos Engineering.
+        </p>
+        <hr></hr>
+        <p className={utilStyles.headingMd}>
+        What PennyMac Does
         </p>
         <p>
         PennyMac Loan Services, LLC is a finance firm, with the office I work out of located in Agora Hills, CA (just North of the Westside of Los Angeles). We've got many offices and around 9,000 employees (plus additional contractors). As the name implies, the firm operates within the mortgage industry. We service, price, and buy mortgages for consumers. I'm actually a bit of a nerd when it comes to real estate finance, I've earned a Certificate in Real Estate Development from UCLA Extension and have half a bookshelf develoted to real estate, finance, and structured debt.
         </p>
-        <p>
-        When I'm not working, studying for various certificates (right now the CompTIA Security+ and AWS Security Specialty are my priorites)- I'm typically reading, hiking, building some side projects, and/ or spending time with my wife (who is also an Engineer!). 
+        <hr></hr>
+        <p className={utilStyles.headingLg}>
+        My Personal Life
         </p>
+        <p>
+        When I'm not working, studying for various certificates (right now the CompTIA Security+ and AWS Security Specialty are my priorites)- I'm typically reading, hiking, building some side projects, and/ or spending time with my wife (who is also an Engineer!). I love swimming and am hoping to get back into it when it's safe again, but I've taken up running to stay active. I love trying new food and dessert- Van Leewan Ice Cream is the best dairy-free/ vegan ice cream you can get in LA.
+        </p>
+        <hr></hr>
         <p className={utilStyles.headingLg}>
           I'm Currently Reading: 
         </p>
@@ -66,6 +79,7 @@ export default function Home({ allPostsData }) {
           Man's Search for Meaning </a>
           by Viktor E. Frankl
         </p>
+        <hr></hr>
         <p className={utilStyles.headingLg}>
           Open Source Contributions: 
         </p>
@@ -78,6 +92,7 @@ export default function Home({ allPostsData }) {
           > my GitHub!
           </a>
         </p>
+        <hr></hr>
         <p className={utilStyles.headingLg}>
           Most Recent Hike: 
         </p>
@@ -93,7 +108,7 @@ export default function Home({ allPostsData }) {
         </p>
           
       </section>
-
+      <hr></hr>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>
           Assortment of Thoughts and Experiences
