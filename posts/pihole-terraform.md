@@ -1,5 +1,5 @@
 ---
-title: 'Pt. 2: Following Up on PiHole for Adblocking, but * Automated with Terraform *'
+title: 'Pt. 2: PiHole for Adblocking, but * Automated with Terraform *'
 date: '2021-03-23'
 ---
 
